@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Burst - Buy Fresh Fruit</title>
+
+    <!-- favion link -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+
+    <!-- boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- daisy Ui link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- tailwind css link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- external css link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-------------------------- X ----------------------------------->
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="max-w-screen-xl mx-auto">
+      <nav class="mx-5 lg:mx-0">
+        <div class="navbar flex flex-row-reverse justify-between bg-green-800 rounded-full">
+          <div class="navbar-start justify-end">
+            <div class="dropdown flex">
+              <label tabindex="0" class="btn btn-ghost btn-circle">
+                <i class='bx bx-menu text-2xl text-white' ></i>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-12 relative right-4 z-[1] p-2 shadow bg-red-500 rounded-box w-52"
+              >
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
+                <li><input type="search" name="search" placeholder="search here"></li>
+              </ul>
+            </div>
+          </div>
+          <div class="navbar-center">
+            <img class="w-8 cursor-pointer" src="./images/logo.png" alt="">
+            <a class=" normal-case text-xl text-white" href="#">
+              Fruit Burst
+            </a>
+          </div>
+          <div class="hidden navbar-end">
+            <input type="search" name="search" placeholder="Search here">
+            <i class='bx bx-search'></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
