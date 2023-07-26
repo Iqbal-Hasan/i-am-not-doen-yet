@@ -269,13 +269,17 @@
       </div>
 
       <!-- deal of the day -->
-      <section class="max-w-screen-xl mx-auto ">
+      <section class="max-w-screen-xl mx-auto">
         <div class="mx-5 lg:mx-5 mt-20 md:mt-24">
           <!-- top part -->
-          <div class="flex flex-col md:flex-row md:items-center md:justify-between md:gap-5">
+          <div
+            class="flex flex-col md:flex-row md:items-center md:justify-between md:gap-5"
+          >
             <!-- top left -->
             <div class="text-center md:text-left">
-              <h1 class="text-4xl lg:text-5xl font-bold mb-3">Deal of the day</h1>
+              <h1 class="text-4xl lg:text-5xl font-bold mb-3">
+                Deal of the day
+              </h1>
               <p class="text-sm mb-6 lg:text-lg md:max-w-xl">
                 Contrary to popular belief, is not simply random text. It has
                 roots in a piece of classical Latin literature from 45 BC,
@@ -284,9 +288,13 @@
             </div>
             <!-- top right -->
             <div class="md:flex-1 mb-5 md:mb-10">
-              <div class="grid grid-flow-col gap-2 items-center justify-center text-center auto-cols-max md:flex md:justify-end">
+              <div
+                class="grid grid-flow-col gap-2 items-center justify-center text-center auto-cols-max md:flex md:justify-end"
+              >
                 <div class="flex flex-col justify-center">
-                  <span class="countdown font-mono text-3xl md:text-5xl lg:font-bold">
+                  <span
+                    class="countdown font-mono text-3xl md:text-5xl lg:font-bold"
+                  >
                     <span style="--value: 15"></span>
                   </span>
                   days
@@ -307,7 +315,9 @@
                   />
                 </svg>
                 <div class="flex flex-col justify-center">
-                  <span class="countdown font-mono text-3xl md:text-5xl lg:font-bold">
+                  <span
+                    class="countdown font-mono text-3xl md:text-5xl lg:font-bold"
+                  >
                     <span style="--value: 10"></span>
                   </span>
                   hours
@@ -328,7 +338,9 @@
                   />
                 </svg>
                 <div class="flex flex-col justify-center">
-                  <span class="countdown font-mono text-3xl md:text-5xl lg:font-bold">
+                  <span
+                    class="countdown font-mono text-3xl md:text-5xl lg:font-bold"
+                  >
                     <span style="--value: 24"></span>
                   </span>
                   min
@@ -349,7 +361,9 @@
                   />
                 </svg>
                 <div class="flex flex-col justify-center">
-                  <span class="countdown font-mono text-3xl md:text-5xl lg:font-bold">
+                  <span
+                    class="countdown font-mono text-3xl md:text-5xl lg:font-bold"
+                  >
                     <span style="--value: 55"></span>
                   </span>
                   sec
@@ -359,67 +373,342 @@
           </div>
           <!-- bottom part -->
           <div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-              <div class="border border-gray-300 shadow-xl rounded-lg flex flex-col items-center gap-4 py-12">
-                <img class="" src="./images/fruit6.png" alt="">
+            <div
+              class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5"
+            >
+              <div
+                class="border border-gray-300 shadow-xl rounded-lg flex flex-col items-center gap-4 py-12"
+              >
+                <img class="" src="./images/fruit6.png" alt="" />
                 <h2 class="text-xl font-bold">12.90$ - 18.85$</h2>
-                <hr class="w-[75%] border-gray-300 border">
+                <hr class="w-[75%] border-gray-300 border" />
                 <p class="text-sm">Apple</p>
                 <div>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star-half text-2xl text-[#F85559]' ></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star-half text-2xl text-[#F85559]"></i>
                 </div>
-                <p class="text-[#F85559] text-md font-bold">Details</p>
+                <div>
+                  <button
+                    class="text-[#F85559] text-md font-bold"
+                    onclick="my_modal_5.showModal()"
+                  >
+                    Details
+                  </button>
+                  <dialog
+                    id="my_modal_5"
+                    class="modal modal-bottom sm:modal-middle"
+                  >
+                    <form method="dialog" class="modal-box flex flex-col gap-5">
+                      <img class="mx-auto" src="./images/fruit6.png" alt="" />
+                      <h3 class="font-bold text-4xl text-center">Apple</h3>
+                      <p class="text-sm md:text-base lg:text-lg text-center">
+                        Professional employees are there for you to pick the
+                        most amazing and fresh fruits.
+                      </p>
+                      <div class="text-center">
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star-half text-2xl text-[#F85559]"></i>
+                      </div>
+                      <div class="flex gap-5 justify-center">
+                        <div class="modal-action">
+                          <button
+                            class="text-[#F85559] border-2 border-[#F85559] uppercase px-4 rounded-md py-3"
+                          >
+                            Close
+                          </button>
+                        </div>
+                        <div class="modal-action">
+                          <button
+                            class="bg-[#F85559] border-[#F85559] px-4 text-white uppercase rounded-md"
+                          >
+                            Buy Now
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </dialog>
+                </div>
               </div>
-              <div class="border border-gray-300 shadow-xl rounded-lg flex flex-col items-center gap-4 py-12">
-                <img class="" src="./images/fruit7.png" alt="">
+
+              <!-- second card -->
+              <div
+                class="border border-gray-300 shadow-xl rounded-lg flex flex-col items-center gap-4 py-12"
+              >
+                <img class="" src="./images/fruit7.png" alt="" />
                 <h2 class="text-xl font-bold">12.90$ - 18.85$</h2>
-                <hr class="w-[75%] border-gray-300 border">
+                <hr class="w-[75%] border-gray-300 border" />
                 <p class="text-sm">Orange</p>
                 <div>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star-half text-2xl text-[#F85559]' ></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star-half text-2xl text-[#F85559]"></i>
                 </div>
-                <p class="text-[#F85559] text-md font-bold">Details</p>
+                <div>
+                  <button
+                    class="text-[#F85559] text-md font-bold"
+                    onclick="my_modal_6.showModal()"
+                  >
+                    Details
+                  </button>
+                  <dialog
+                    id="my_modal_6"
+                    class="modal modal-bottom sm:modal-middle"
+                  >
+                    <form method="dialog" class="modal-box flex flex-col gap-5">
+                      <img class="mx-auto" src="./images/fruit7.png" alt="" />
+                      <h3 class="font-bold text-4xl text-center">Orange</h3>
+                      <p class="text-sm md:text-base lg:text-lg text-center">
+                        Professional employees are there for you to pick the
+                        most amazing and fresh fruits.
+                      </p>
+                      <div class="text-center">
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star-half text-2xl text-[#F85559]"></i>
+                      </div>
+                      <div class="flex gap-5 justify-center">
+                        <div class="modal-action">
+                          <button
+                            class="text-[#F85559] border-2 border-[#F85559] uppercase px-4 rounded-md py-3"
+                          >
+                            Close
+                          </button>
+                        </div>
+                        <div class="modal-action">
+                          <button
+                            class="bg-[#F85559] border-[#F85559] px-4 text-white uppercase rounded-md"
+                          >
+                            Buy Now
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </dialog>
+                </div>
               </div>
-              <div class="border border-gray-300 shadow-xl rounded-lg flex flex-col items-center gap-4 py-12">
-                <img class="" src="./images/fruit8.png" alt="">
+
+              <!-- third card -->
+              <div
+                class="border border-gray-300 shadow-xl rounded-lg flex flex-col items-center gap-4 py-12"
+              >
+                <img class="" src="./images/fruit8.png" alt="" />
                 <h2 class="text-xl font-bold">12.90$ - 18.85$</h2>
-                <hr class="w-[75%] border-gray-300 border">
+                <hr class="w-[75%] border-gray-300 border" />
                 <p class="text-sm">Red Dragon</p>
                 <div>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star-half text-2xl text-[#F85559]' ></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star-half text-2xl text-[#F85559]"></i>
                 </div>
-                <p class="text-[#F85559] text-md font-bold">Details</p>
+                <div>
+                  <button
+                    class="text-[#F85559] text-md font-bold"
+                    onclick="my_modal_7.showModal()"
+                  >
+                    Details
+                  </button>
+                  <dialog
+                    id="my_modal_7"
+                    class="modal modal-bottom sm:modal-middle"
+                  >
+                    <form method="dialog" class="modal-box flex flex-col gap-5">
+                      <img class="mx-auto" src="./images/fruit8.png" alt="" />
+                      <h3 class="font-bold text-4xl text-center">Red Dragon</h3>
+                      <p class="text-sm md:text-base lg:text-lg text-center">
+                        Professional employees are there for you to pick the
+                        most amazing and fresh fruits.
+                      </p>
+                      <div class="text-center">
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star-half text-2xl text-[#F85559]"></i>
+                      </div>
+                      <div class="flex gap-5 justify-center">
+                        <div class="modal-action">
+                          <button
+                            class="text-[#F85559] border-2 border-[#F85559] uppercase px-4 rounded-md py-3"
+                          >
+                            Close
+                          </button>
+                        </div>
+                        <div class="modal-action">
+                          <button
+                            class="bg-[#F85559] border-[#F85559] px-4 text-white uppercase rounded-md"
+                          >
+                            Buy Now
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </dialog>
+                </div>
               </div>
-              <div class="border border-gray-300 shadow-xl rounded-lg flex flex-col items-center gap-3 py-12">
-                <img class="" src="./images/fruit9.png" alt="">
+              <div
+                class="border border-gray-300 shadow-xl rounded-lg flex flex-col items-center gap-3 py-12"
+              >
+                <img class="" src="./images/fruit9.png" alt="" />
                 <h2 class="text-xl font-bold">12.90$ - 18.85$</h2>
-                <hr class="w-[75%] border-gray-300 border">
+                <hr class="w-[75%] border-gray-300 border" />
                 <p class="text-sm">Banana</p>
                 <div>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star text-2xl text-[#F85559]'></i>
-                  <i class='bx bxs-star-half text-2xl text-[#F85559]' ></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                  <i class="bx bxs-star-half text-2xl text-[#F85559]"></i>
                 </div>
-                <p class="text-[#F85559] text-md font-bold">Details</p>
+                <div>
+                  <button
+                    class="text-[#F85559] text-md font-bold"
+                    onclick="my_modal_8.showModal()"
+                  >
+                    Details
+                  </button>
+                  <dialog
+                    id="my_modal_8"
+                    class="modal modal-bottom sm:modal-middle"
+                  >
+                    <form method="dialog" class="modal-box flex flex-col gap-5">
+                      <img class="mx-auto" src="./images/fruit9.png" alt="" />
+                      <h3 class="font-bold text-4xl text-center">Banana</h3>
+                      <p class="text-sm md:text-base lg:text-lg text-center">
+                        Professional employees are there for you to pick the
+                        most amazing and fresh fruits.
+                      </p>
+                      <div class="text-center">
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star text-2xl text-[#F85559]"></i>
+                        <i class="bx bxs-star-half text-2xl text-[#F85559]"></i>
+                      </div>
+                      <div class="flex gap-5 justify-center">
+                        <div class="modal-action">
+                          <button
+                            class="text-[#F85559] border-2 border-[#F85559] uppercase px-4 rounded-md py-3"
+                          >
+                            Close
+                          </button>
+                        </div>
+                        <div class="modal-action">
+                          <button
+                            class="bg-[#F85559] border-[#F85559] px-4 text-white uppercase rounded-md"
+                          >
+                            Buy Now
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </dialog>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-6 md:mt-8 lg:mt-20">
+          <button
+            class="bg-[#F85559] text-white font-bold py-3 px-5 rounded-lg"
+          >
+            Shop All
+          </button>
+        </div>
+      </section>
+
+      <!-- team section -->
+      <section class="max-w-screen-xl mx-auto">
+        <div class="mx-5 lg:mx-5 mt-20 md:mt-24">
+          <div
+            class="px-2 lg:py-8 pt-3 rounded-lg"
+            style="
+              background-image: linear-gradient(
+                  180deg,
+                  #121212 0%,
+                  rgba(18, 18, 18, 0) 70%
+                ),
+                url('./images/team.png');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            "
+          >
+            <div>
+              <h1
+                class="text-2xl text-white text-center md:text-4xl lg:text-6xl font-bold mt-5 md:mt-8 lg:mt-20"
+              >
+                Meet the team section
+              </h1>
+              <p
+                class="text-sm text-white text-center md:text-lg lg:text-xl my-5 md:my-8 lg:my-10 max-w-[600px] mx-auto"
+              >
+                Contrary to popular belief, is not simply random text. It has
+                roots in a piece of classical Latin literature from 45 BC,
+                making it over 2000 years old.
+              </p>
+              <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-center text-white mt-10 gap-5"
+              >
+                <div>
+                  <img class="mx-auto" src="./images/member1.png" alt="" />
+                  <h3>Awlad Hossain</h3>
+                  <p>Fruits Expert</p>
+                  <div>
+                    <i class="bx bxl-facebook-circle"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-linkedin-square"></i>
+                  </div>
+                </div>
+                <div>
+                  <img class="mx-auto" src="./images/member2.png" alt="" />
+                  <h3>Awlad Hossain</h3>
+                  <p>Fruits Expert</p>
+                  <div>
+                    <i class="bx bxl-facebook-circle"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-linkedin-square"></i>
+                  </div>
+                </div>
+                <div>
+                  <img class="mx-auto" src="./images/member3.png" alt="" />
+                  <h3>Awlad Hossain</h3>
+                  <p>Fruits Expert</p>
+                  <div>
+                    <i class="bx bxl-facebook-circle"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-linkedin-square"></i>
+                  </div>
+                </div>
+                <div>
+                  <img class="mx-auto" src="./images/member4.png" alt="" />
+                  <h3>Awlad Hossain</h3>
+                  <p>Fruits Expert</p>
+                  <div>
+                    <i class="bx bxl-facebook-circle"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-linkedin-square"></i>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <section class="max-w-screen-xl mx-auto"></section>
+      <div class="mx-5 lg:mx-5 mt-20 md:mt-24"></div>
     </main>
   </body>
 </html>
